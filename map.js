@@ -6,3 +6,5 @@ does not execute the function for empty elements, and does not change the origin
 
 const numbers = [4, 9, 16, 25];
 const newArr = numbers.map(Math.sqrt)
+console.log (numbers)
+console.log (newArr)

@@ -1,4 +1,7 @@
 //The for..in loop in JavaScript allows you to iterate over all property keys of an object.
-for (key in object) {
-    // body of for...in
+
+const object = { a: 1, b: 2, c: 3 };
+
+for (const property in object) {
+  console.log(`${property}: ${object[property]}`);
 }
